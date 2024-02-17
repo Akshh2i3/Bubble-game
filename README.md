@@ -1,2 +1,2 @@
-# Bubble-game
-The Bubble Pop Challenge
+# Bubble-game🫧
+The Bubble Pop Challenge is an interactive and time-bound game where players are presented with a grid of bubbles, each containing a numerical value. The objective is to click on bubbles with a specified target value within a limited time frame to gain some score. The Bubble Pop Challenge combines elements of strategy, quick thinking, and hand-eye coordination, making it an entertaining and addictive game for players of all ages.
