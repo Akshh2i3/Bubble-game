@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    width: 80%;
+    height: 80%;
+    /* margin: auto; */
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.top{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(167, 77, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.blocks h3{
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.blocks{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.boxs{
+    /* width: 15%;
+    height: 40px; */
+    padding: 2px 10px;
+    color: salmon;
+    font-size: 25px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.playground{
+    width: 100%;
+    height: 85%;   /*total - top (100%-15%)*/    
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    color: rgb(167, 77, 66);
+}
+
+.bubble{
+    width: 60px;
+    height: 60px;
+    background-color: salmon;
+    font-size: 25px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bubble:hover{
+    background-color: rgb(167, 77, 66);
+    cursor: pointer;
+}
+
+.startbtn{
+    width: 25%;
+    height: 60px;
+    font-size: 50px;
+    border: none;
+    background-color: rgb(167, 77, 66);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
